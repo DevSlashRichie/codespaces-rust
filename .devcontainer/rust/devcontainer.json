@@ -1,0 +1,13 @@
+{
+    "name": "rust",
+    "extensions": [
+        "cschleiden.vscode-github-actions",
+        "rust-lang.rust-analyzer",
+        "vadimcn.vscode-lldb"
+    ],
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "editor.formatOnSave": true,
+        "terminal.integrated.shell.linux": "/usr/bin/zsh"
+    }
+}
